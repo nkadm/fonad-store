@@ -1,9 +1,6 @@
 /*------------------------------------------------------------------
 Main Style Stylesheet
-	Project:		Comre - Coupon &amp;amp; Offers HTML Template
-	Version:	    1.0
-	Primary use:	Comre, Business, Coporate, Creative, Coupon
-	Last change:	27/03/15
+FonAd - Every call is a big deal!
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 body
@@ -2709,7 +2706,7 @@ header .ownmenu ul.dropdown li:nth-last-child(1) a {
 	margin-right: 3px;
 }
 .drop-cobs p {
-	font-size: 14px;
+	font-size: 16px;
 	color: #777777;
 	font-weight: 100;
 	font-family: 'Montserrat';
@@ -2717,12 +2714,12 @@ header .ownmenu ul.dropdown li:nth-last-child(1) a {
 .drop-cobs p span {
 	background: #002b5e;
 	height: 60px;
-	width: 60px;
+	width: 50%;
 	text-align: center;
 	line-height: 60px;
 	font-weight: bold;
 	font-family: 'Montserrat';
-	font-size: 40px;
+	font-size: 60px;
 	float: left;
 	color: #fff;
 	margin-bottom: 5px;
@@ -2730,9 +2727,9 @@ header .ownmenu ul.dropdown li:nth-last-child(1) a {
 	display: inline-block;
 }
 .drop-cobs p span.border {
-	background: none;
-	color: #002b5e;
-	border: 1px solid #002b5e;
+	color: #fff;
+	border: 1px solid;
+	background: linear-gradient(90deg, rgba(255,220,21), rgba(212,0,89), rgba(45,46,130));
 }
 .alert {
 	height: 57px;
@@ -3142,4 +3139,20 @@ footer .social_icons a {
 	color: #fff;
 	background-color: #35506b;
 	border-color: #35506b;
+}
+
+/*=======================================================
+			MY Account Transaction Box
+========================================================*/
+.points{
+	text-align: right;
+	float: right;
+}
+
+.debitted_points{
+	color: #c0392b;
+}
+
+.credited_points{
+	color: #27ae60;
 }
